@@ -1,0 +1,104 @@
+
+/*2*/
+.slider-container {
+    width: 20%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .slide img {
+    width: 300px;
+    height: 200px;
+  }
+
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    font-size: 34px;
+    cursor: pointer;
+    user-select: none;
+    color: white;
+  }
+
+  .prev {
+    left: 10px;
+  }
+
+  .next {
+    right: 10px;
+  }
+
+
+/*4*/
+
+form {
+    text-align: center;
+}
+
+input {
+    padding: 8px;
+    margin: 5px;
+}
+
+/*5*/
+
+.tabs-container {
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.tabs-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.tabs-list li {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #d4fef4;
+    margin-right: 5px;
+}
+
+.tabs-list li.active {
+    background-color: #fff;
+}
+
+.tabs-content {
+    border: 1px solid #d4fef4;
+    padding: 20px;
+}
+
+/*6*/
+
+.notification {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.notis1 {
+    background-color: #4c9daf;
+}
+
+.notis2 {
+    background-color: #cb36f4;
+}
